@@ -72,3 +72,30 @@ export const logoSecondSet = [
     logo: behance,
   },
 ];
+
+export const metricData = [
+  {
+    id: 1,
+    title: "2 Million",
+    use: "Customers",
+    desc: "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+  },
+  {
+    id: 2,
+    title: "2K",
+    use: "Downloads",
+    desc: "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+  },
+  {
+    id: 3,
+    title: "$73 Million",
+    use: "Transaction",
+    desc: "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+  },
+  {
+    id: 4,
+    title: "2.0",
+    use: "Latest Version",
+    desc: "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+  },
+];

@@ -3,6 +3,7 @@ import Feature from "./pages/Feature";
 import Feature2 from "./pages/Feature2";
 import Hero from "./pages/Hero";
 import LogoSection from "./pages/LogoSection";
+import Metric from "./pages/Metric";
 import Navbar from "./pages/Navbar";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <LogoSection />
       <Feature />
       <Feature2 />
+      <Metric />
     </div>
   );
 }
