@@ -11,14 +11,12 @@ function Subhero() {
         </div>
         <div className="flex w-full flex-col items-start justify-center gap-4  ">
           <p
-            className="w-full text-[#121417] font-Inter text-[40px] sm:text-[62px]
-           font-semibold leading-[48px] sm:leading-[72px] "
+            className="w-full mdl:text-[64px] mdl:leading-[75px] text-[#121417] font-Inter text-[35px] md:text-[55px]
+           font-semibold leading-[48px] md:leading-[60px]  "
           >
             Unleasing the Next{" "}
             <span className="  sm:hidden ">Generation of Card</span>
-            <span className="sm:text-[60px] hidden  sm:block ">
-              Generation of Card
-            </span>{" "}
+            <span className=" hidden  sm:block ">Generation of Card</span>{" "}
             <br className="hidden" />
             Solutions
           </p>

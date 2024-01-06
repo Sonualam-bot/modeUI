@@ -1,0 +1,38 @@
+/* LogoSection.css */
+
+.logo-scroll-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+    animation: scrollAnimation 20s linear infinite;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .logo-set {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .logo-item {
+    flex-shrink: 0;
+  }
+  
+  .logo-image {
+    height: 4rem;
+  }
+  
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Media query for md screen size */
+  @media (min-width: 768px) {
+    .logo-scroll-container {
+      animation: scrollAnimation 20s linear infinite;
+    }
+  }
+  

@@ -26,7 +26,7 @@ function Hero() {
   );
 
   return (
-    <div className=" flex flex-col px-4 pt-16 pb-8 relative ">
+    <div className=" flex flex-col px-4 pt-16 pb-8 relative h-[450px]  ">
       <div className="w-full flex items-center justify-center ">
         <div className="w-[90vw] sm:w-[65vw] md:w-[50vw] h-[200px] sm:h-[310px] md:h-[310px]  text-[#F4EFF6] flex flex-row justify-between items-center ">
           {verticalLines}

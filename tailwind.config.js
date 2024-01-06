@@ -10,6 +10,10 @@ export default {
       screens: {
         sm: "375px",
         md: "768px",
+        customWidth: { min: "592px", max: "624px" },
+        customWidth2: { min: "625px", max: "768px" },
+        customTextWidth: { min: "375px", max: "530px" },
+        mdl: "1024px",
       },
     },
   },
