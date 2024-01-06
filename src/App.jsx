@@ -5,6 +5,7 @@ import Hero from "./pages/Hero";
 import LogoSection from "./pages/LogoSection";
 import Metric from "./pages/Metric";
 import Navbar from "./pages/Navbar";
+import Testimonial from "./pages/Testimonial";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Feature />
       <Feature2 />
       <Metric />
+      <Testimonial />
     </div>
   );
 }
