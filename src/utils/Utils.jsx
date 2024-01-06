@@ -99,3 +99,36 @@ export const metricData = [
     desc: "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
   },
 ];
+
+export const footerArray1 = [
+  {
+    id: 1,
+    title: "Company",
+    tags: ["About us", "Pricing", "Contact us", "Features"],
+  },
+  {
+    id: 2,
+    title: "Product",
+    tags: ["Figma design system", "Ios kit", "Android kit", "Wireframe"],
+  },
+  {
+    id: 3,
+    title: "Resources",
+    tags: ["Templates", "Landing Pages", "Documentation", "Comp library"],
+  },
+  {
+    id: 4,
+    title: "Legal",
+    tags: [
+      "Privacy Policy",
+      "Terms & Conditions",
+      "Disclaimer",
+      "Affiliate programme",
+    ],
+  },
+  {
+    id: 5,
+    title: "Support",
+    tags: ["Help centre", "Raise ticket", "Report", "Refund"],
+  },
+];

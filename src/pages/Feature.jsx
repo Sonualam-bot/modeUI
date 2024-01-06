@@ -38,7 +38,7 @@ function Feature() {
             return (
               <div
                 key={id}
-                className="flex w-[91vw] md:w-[27vw] p-4 flex-col justify-center items-center gap-2  "
+                className="flex w-[91vw] md:w-[26vw] p-4 flex-col justify-center items-center gap-2  "
               >
                 <div className="flex w-[90%] flex-col items-center gap-4 md:gap-2 ">
                   <div className="flex p-4 justify-center items-center gap-2 rounded-[240px] bg-[#F4EFF6]  ">
@@ -52,7 +52,7 @@ function Feature() {
                     <p className="self-stretch text-[#121417] text-center font-Inter text-[16px] font-medium leading-5 ">
                       {title}
                     </p>
-                    <p className="w-[60%] text-center font-Inter text-[14px] font-medium leading-6  ">
+                    <p className="w-[52%] text-center font-Inter text-[14px] font-medium leading-6  ">
                       {desc}
                     </p>
                   </div>
