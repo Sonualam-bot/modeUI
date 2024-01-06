@@ -1,4 +1,5 @@
 import Annoucement from "./pages/Annoucement";
+import Feature from "./pages/Feature";
 import Hero from "./pages/Hero";
 import LogoSection from "./pages/LogoSection";
 import Navbar from "./pages/Navbar";
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <LogoSection />
+      <Feature />
     </div>
   );
 }
