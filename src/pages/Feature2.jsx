@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import mobile from "../assets/phone.png";
 import stick from "../assets/stick.png";
 import star from "../assets/star.svg";
-import frame1 from "../assets/frame1.svg";
-import frame from "../assets/frame.svg";
+import frame1 from "../assets/Frame1.svg";
+import frame from "../assets/Frame.svg";
 import stick1 from "../assets/stick1.svg";
 
 function Feature2() {
