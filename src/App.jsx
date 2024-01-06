@@ -1,4 +1,5 @@
 import Annoucement from "./pages/Annoucement";
+import CallToAction from "./pages/CallToAction";
 import Feature from "./pages/Feature";
 import Feature2 from "./pages/Feature2";
 import Hero from "./pages/Hero";
@@ -18,6 +19,7 @@ function App() {
       <Feature2 />
       <Metric />
       <Testimonial />
+      <CallToAction />
     </div>
   );
 }
