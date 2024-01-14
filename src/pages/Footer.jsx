@@ -56,7 +56,7 @@ function Footer() {
               })}
             </div>
 
-            <div className="flex flex-col md:flex-row  items-start gap-8 md:w-[60%] sm:flex-row sm:gap-16 md:justify-between self-stretch ">
+            <div className="flex flex-col md:flex-row  items-start gap-8 md:w-[60%] sm:flex-row sm:gap-8 md:justify-between self-stretch ">
               {footerArray1.slice(2, 5).map((data) => {
                 const { id, title, tags } = data;
                 return (
